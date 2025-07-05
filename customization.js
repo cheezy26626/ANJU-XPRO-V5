@@ -46,7 +46,6 @@ module.exports = {
 ┃📚 𝚅𝚎𝚛𝚜𝚒𝚘𝚗 : ${packageJson.version}
 ┃📝 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : ${os.platform()}
 ┃📟 𝙷𝚘𝚜𝚝 : ${os.hostname()}
-┃🤴𝙾𝚠𝚗𝚎𝚛 : ${config.OWNER_NAME}
 ┃🔊 𝙼𝚘𝚍𝚎 : ${config.MODE}
 ┃🍁 𝚄𝚙𝚝𝚒𝚖𝚎 : ${runtime(process.uptime())}
 ┃✨𝙼𝚎𝚖 : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(
