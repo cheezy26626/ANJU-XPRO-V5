@@ -43,7 +43,7 @@ function convertToBool(text, fault = "true") {
 module.exports = {
   SESSION_ID:
     process.env.SESSION_ID ||
-    "ANJU-XPRO~XIF2xLAJ#gct9X_q32ZpI3BF5VntpG0Ae1rKUp7PYloIFvQw-KFw",
+    "ANJU-XPRO~4rNHWI5K#Nw4MePWLN4-FN9lhKOXIDY6ZUJP1L55tJ1h_BaG2U0s",
   BOT_NUMBER:
     process.env.BOT_NUMBER || "+94769162583",
   PASSWORD: 
