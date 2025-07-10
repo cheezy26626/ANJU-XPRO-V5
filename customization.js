@@ -341,16 +341,16 @@ ${conf.FOOTER}`.trim();
   },
   AUTOSONG: function (foundSong, currentArtist, nextArtist, config, botNumber, isGroup, groupMetadata) {
     return `
- 『𝗔𝗣𝗘𝗫 𝗠𝗨𝗦𝗜𝗖 』🎧
+ ┃ 𝗠𝗨𝗦𝗜𝗖 𝗛𝗨𝗕┃ 🎧
 ━━━━━━━━━━━━━━━━━━━
-🎶 𝗦𝗢𝗡𝗚  𝗗𝗘𝗧𝗔𝗜𝗟𝗦✨  
-╠➤ *TITLE📖:* *${foundSong.title}*
-╠➤ *ARTIST👤:* ${currentArtist.replace(" original", "")}
-╠➤ *DURATION⏰*: ${foundSong.timestamp || "𝙽/𝙰"}
-╠➤ *VIEWS📺*: ${foundSong.views.toLocaleString() || "𝙽/𝙰"}
-╠➤ *UPLOADED⏫*: ${foundSong.ago || "𝙽/𝙰"}
+🎶 𝗦𝗢𝗡𝗚  𝗗𝗘𝗧𝗔𝗜𝗟𝗦☃  
+╠➤ *𝚃𝙸𝚃𝙻𝙴📖➠* *${foundSong.title}✨*
+╠➤ *𝙰𝚁𝚃𝙸𝚂𝚃👤:* ${currentArtist.replace(" original", "")}
+╠➤ *𝙳𝚄𝚁𝙰𝚃𝙸𝙾𝙽⏰*: ${foundSong.timestamp || "𝙽/𝙰"}
+╠➤ *𝚅𝙸𝙴𝚆𝚂📺*: ${foundSong.views.toLocaleString() || "𝙽/𝙰"}
+╠➤ *𝚄𝙿𝙻𝙾𝙰𝙳⏫*: ${foundSong.ago || "𝙽/𝙰"}
 ━━━━━━━━━━━━━━━━━━━
-📌 *𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙻𝙸𝙽𝙺:* 
+ *𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙻𝙸𝙽𝙺:* 
     ${foundSong.url}
     ${config.FOOTER || "*♥️Use Headphone For Listening ☁️🫀♥️මේ වගේ ලස්සන සිංදු හැමදාම අහන්න මෙන්න මෙහෙට එන්ඩ අනේහ්....*😚💕"}`.trim();
   },
