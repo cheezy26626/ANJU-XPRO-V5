@@ -3,16 +3,6 @@ const packageJson = require("./package.json"); // Get package details
 
 module.exports = {
   ARTISTS:[
-      "Ranwan Liyanage original",
-      "Amal Perera original",
-      "Clarence Wijewardena original",
-      "Sunil Edirisinghe original",
-      "Victor Ratnayake original",
-      "Nanda Malini original",
-      "Sanuka Wickramasinghe original",
-      "Kasun Kalhara original",
-      "Uresha Ravihari original",
-      "Dinesh Kanagaratnam original",
       "new sinhala songs",
       "mind relax songs sinhala",
       "sinhala parana sindu",
@@ -369,13 +359,17 @@ ${conf.FOOTER}`.trim();
     ${isGroup ? `
 
 ━━━━━━━━━━━━━━━━━━━
-👥 *𝙶𝚁𝙾𝚄𝙿 𝙸𝙽𝙵𝙾* 
+👥 *𝙶𝚁𝙾𝚄𝙿 details* 
 ╠➤ *𝙽𝚊𝚖𝚎:* ${groupMetadata?.subject || "Group"}
 ╠➤ *𝙰𝚍𝚖𝚒𝚗:* ${config.MNAME}
-╠➤ *𝙱𝚘𝚝 𝙽𝚞𝚖𝚋𝚎𝚛:* ${botNumber}
 ━━━━━━━━━━━━━━━━━━━
 ` : ""}
-${config.FOOTER || "🎼 Enjoy the music! 🎧"}`.trim();
+${config.FOOTER || "*☘️ 🇦 🇵 🇪 🇽   🇲 🇺 🇸 🇮 🇨 🙇‍♂️🫀🎵* 
+
+
+> ♥️Use Headphone For Listening ☁️🫀
+
+*♥️මේ වගේ ලස්සන සිංදු හැමදාම අහන්න මෙන්න මෙහෙට එන්ඩ අනේහ්....*😚💕  🎧"}`.trim();
   },
   AIMODEPROMPT: function (userMessage) {
     return `
