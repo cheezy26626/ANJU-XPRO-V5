@@ -343,8 +343,8 @@ ${conf.FOOTER}`.trim();
     return `
  『𝗔𝗣𝗘𝗫 𝗠𝗨𝗦𝗜𝗖 』🎧
 ━━━━━━━━━━━━━━━━━━━
-🎶 𝗦𝗢𝗡𝗚  𝗗𝗘𝗧𝗔𝗜𝗟𝗦  🎼
-╠➤ *TITLE📖:* ${foundSong.title}
+🎶 𝗦𝗢𝗡𝗚  𝗗𝗘𝗧𝗔𝗜𝗟𝗦✨  
+╠➤ *TITLE📖:* *${foundSong.title}*
 ╠➤ *ARTIST👤:* ${currentArtist.replace(" original", "")}
 ╠➤ *DURATION⏰*: ${foundSong.timestamp || "𝙽/𝙰"}
 ╠➤ *VIEWS📺*: ${foundSong.views.toLocaleString() || "𝙽/𝙰"}
@@ -352,7 +352,7 @@ ${conf.FOOTER}`.trim();
 ━━━━━━━━━━━━━━━━━━━
 📌 *𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙻𝙸𝙽𝙺:* 
     ${foundSong.url}
-    ${config.FOOTER || "♥️Use Headphone For Listening ☁️🫀*♥️මේ වගේ ලස්සන සිංදු හැමදාම අහන්න මෙන්න මෙහෙට එන්ඩ අනේහ්....*😚💕"}`.trim();
+    ${config.FOOTER || "*♥️Use Headphone For Listening ☁️🫀♥️මේ වගේ ලස්සන සිංදු හැමදාම අහන්න මෙන්න මෙහෙට එන්ඩ අනේහ්....*😚💕"}`.trim();
   },
   AIMODEPROMPT: function (userMessage) {
     return `
