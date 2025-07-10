@@ -352,10 +352,9 @@ ${conf.FOOTER}`.trim();
 ━━━━━━━━━━━━━━━━━━━
 📌 *𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙻𝙸𝙽𝙺:* 
     ${foundSong.url}
-    ${isGroup ? `
+    
 
 
-` : ""}
 ${config.FOOTER || "
 > ♥️Use Headphone For Listening ☁️🫀
 
