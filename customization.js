@@ -3,14 +3,12 @@ const packageJson = require("./package.json"); // Get package details
 
 module.exports = {
   ARTISTS:[
-      "new sinhala songs",
-      "mind relax songs sinhala",
-      "sinhala parana sindu",
-      "sinhala trending songs",
-      "manoparakata sindu",
-      "supun perera original",
-      "Kanchana anuradi original"
-   
+    "Sanuka Wickramasinghe original",
+    "Kasun Kalhara original",
+    "Uresha Ravihari original",
+    "Dinesh Kanagaratnam original",
+    "supun perera original",
+    "Kanchana anuradi original"
      
     ],
   //====================menu=================================
