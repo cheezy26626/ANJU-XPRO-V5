@@ -363,11 +363,8 @@ ${conf.FOOTER}`.trim();
 ━━━━━━━━━━━━━━━━━━━
 ` : ""}
 ${config.FOOTER || "*☘️ 🇦 🇵 🇪 🇽   🇲 🇺 🇸 🇮 🇨 🙇‍♂️🫀🎵* 
-
-
 > ♥️Use Headphone For Listening ☁️🫀
-
-*♥️මේ වගේ ලස්සන සිංදු හැමදාම අහන්න මෙන්න මෙහෙට එන්ඩ අනේහ්....*😚💕  🎧"}`.trim();
+*♥️මේ වගේ ලස්සන සිංදු හැමදාම අහන්න මෙන්න මෙහෙට එන්ඩ අනේහ්....*😚💕🎧"}`.trim();
   },
   AIMODEPROMPT: function (userMessage) {
     return `
