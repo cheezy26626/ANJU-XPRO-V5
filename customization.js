@@ -341,14 +341,14 @@ ${conf.FOOTER}`.trim();
   },
   AUTOSONG: function (foundSong, currentArtist, nextArtist, config, botNumber, isGroup, groupMetadata) {
     return `
- 『🇦 🇵 🇪 🇽  🇲 🇺 🇸 🇮 🇨  』🎧
+ 『𝗔𝗣𝗘𝗫 𝗠𝗨𝗦𝗜𝗖 』🎧
 ━━━━━━━━━━━━━━━━━━━
 🎶 𝗦𝗢𝗡𝗚  𝗗𝗘𝗧𝗔𝗜𝗟𝗦  🎼
-╠➤ *𝗧𝗜𝗧𝗟𝗘📖:* ${foundSong.title}
-╠➤ *𝗔𝗥𝗧𝗜𝗦𝗧👤:* ${currentArtist.replace(" original", "")}
-╠➤ *𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡⏰:* ${foundSong.timestamp || "𝙽/𝙰"}
-╠➤ *𝗩𝗜𝗘𝗪𝗦📺:* ${foundSong.views.toLocaleString() || "𝙽/𝙰"}
-╠➤ *𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗⏫:* ${foundSong.ago || "𝙽/𝙰"}
+╠➤ *𝗧𝗜𝗧𝗟𝗘📖: ${foundSong.title}
+╠➤ *𝗔𝗥𝗧𝗜𝗦𝗧👤: ${currentArtist.replace(" original", "")}
+╠➤ *𝗗𝗨𝗥𝗔𝗧𝗜𝗢𝗡⏰: ${foundSong.timestamp || "𝙽/𝙰"}
+╠➤ *𝗩𝗜𝗘𝗪𝗦📺: ${foundSong.views.toLocaleString() || "𝙽/𝙰"}
+╠➤ *𝗨𝗣𝗟𝗢𝗔𝗗𝗘𝗗⏫: ${foundSong.ago || "𝙽/𝙰"}
 ━━━━━━━━━━━━━━━━━━━
 📌 *𝚈𝚘𝚞𝚃𝚞𝚋𝚎 𝙻𝙸𝙽𝙺:* 
     ${foundSong.url}
